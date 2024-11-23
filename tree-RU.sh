@@ -33,7 +33,7 @@ new_year=$(date +'%Y')
 let new_year++
 tput setaf 1; tput bold
 tput cup $lin $((c - 6)); echo С РОЖДЕСТВОМ
-tput cup $((lin + 1)) $((c - 10)); echo И много КОДА in $new_year
+tput cup $((lin + 1)) $((c - 10)); echo И много in $new_year
 let c++
 k=1
 
